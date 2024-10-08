@@ -3,40 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nome do Site</title>
+    <title>Memórias Escolares</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Nome do Site</h1>
+        <h1>Memórias Escolares</h1>
         <nav>
             <ul>
-                <li><a href="#relatos">Relatos</a>
-                    <ul>
-                        <li><a href="#relato1">Relato 1</a></li>
-                        <li><a href="#relato2">Relato 2</a></li>
-                    </ul>
-                </li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#pre-escola">Pré-Escola</a></li>
+                <li><a href="#fundamental">Ensino Fundamental</a></li>
+                <li><a href="#medio">Ensino Médio</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="relatos">
-            <h2>Relatos</h2>
-            <article id="relato1">
-                <h3>Relato 1</h3>
-                <p>Data: 01/01/2023</p>
-                <img src="imagem1.jpg" alt="Descrição da imagem 1">
-                <p>Descrição do relato 1.</p>
-            </article>
-            <article id="relato2">
-                <h3>Relato 2</h3>
-                <p>Data: 02/01/2023</p>
-                <img src="imagem2.jpg" alt="Descrição da imagem 2">
-                <p>Descrição do relato 2.</p>
+        <section id="pre-escola">
+            <h2>Pré-Escola</h2>
+            <p>Primeiro dia cheio de emoções. Lembro do cheiro da tinta e das risadas.</p>
+            <img src="pre-escola.jpg" alt="Atividades na Pré-Escola">
+        </section>
+
+        <section id="fundamental">
+            <h2>Ensino Fundamental</h2>
+            <p>As excursões ao zoológico e ao planetário foram inesquecíveis!</p>
+            <img src="fundamental.jpg" alt="Excursão ao Zoológico">
+        </section>
+
+        <section id="medio">
+            <h2>Ensino Médio</h2>
+            <p>O dia da formatura foi um momento emocionante, repleto de recordações.</p>
+            <img src="medio.jpg" alt="Formatura">
+        </section>
+    </main>
+
+    <footer>
+        <p>Nome da Escola: Escola Exemplo</p>
+        <p>Nome do Aluno: Seu Nome Completo</p>
+        <p>Nº: 12345</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f1f1f1;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
             </article>
         </section>
 
