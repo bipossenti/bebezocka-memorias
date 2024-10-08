@@ -22,16 +22,14 @@ nav ul li {
     position: relative;
 }
 
-nav ul li .submenu {
+nav ul li ul {
     display: none;
     position: absolute;
     background: white;
     border: 1px solid #ccc;
-    padding: 0;
-    z-index: 1;
 }
 
-nav ul li:hover .submenu {
+nav ul li:hover ul {
     display: block;
 }
 
