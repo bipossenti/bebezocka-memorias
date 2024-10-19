@@ -5,9 +5,10 @@ body {
 }
 
 header {
-    background: #4CAF50;
-    color: white;
-    padding: 10px 20px;
+    background-color: #bf0725;
+    color: rgb(39, 1, 1);
+    padding: 10px 0;
+    text-align: center;
 }
 
 nav ul {
@@ -16,20 +17,13 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
-    margin-right: 15px;
-    position: relative;
+    display: inline;
+    margin: 0 15px;
 }
 
-nav ul li ul {
-    display: none;
-    position: absolute;
-    background: white;
-    border: 1px solid #ccc;
-}
-
-nav ul li:hover ul {
-    display: block;
+nav ul li a {
+    color: rgb(253, 1, 1);
+    text-decoration: none;
 }
 
 main {
@@ -37,15 +31,21 @@ main {
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
 }
 
 footer {
-    background: #333;
-    color: white;
     text-align: center;
     padding: 10px 0;
+    background-color: #a30c0c;
     position: relative;
     bottom: 0;
     width: 100%;
+}
+img {
+    width: 200px;
+    height: auto;
 }
